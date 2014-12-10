@@ -1,0 +1,17 @@
+# NewAnnouncer config
+# ===================
+# no-permission: '&cYou do not have permission for this' | What do players see if they can't run this command?
+# interval: 60 | delay between announcements
+# prefix: '&b[&aPrefix&b] &d' | Appears before each announcement.
+# random: false | Do messages appear in a random order? False = no, True = yes
+# lang: English | Only useful with the NewTrans plugin installed, also coded by myself. Set to "NewTrans" to take the value in the NewTrans configuration. This is the language that messages are translated FROM with the NewTrans plugin installed
+# messages: (list) | List of announceable messages. ANSI/ASCII ONLY! DOES NOT SUPPORT UTF-8 ENCODING
+# ===================
+no-permission: '&cYou do not have permission for this'
+interval: 60
+prefix: '&b[&aPrefix&b] &d'
+random: false
+lang: NewTrans
+messages:
+- This is an announcement
+- This is another announcement
