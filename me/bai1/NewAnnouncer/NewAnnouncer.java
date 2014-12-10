@@ -31,8 +31,7 @@ public class NewAnnouncer extends JavaPlugin implements Listener {
     public static Language consoleLang;
     
     public void onEnable() {
-        getConfig().options().copyDefaults(true);
-        saveConfig();
+        this.saveDefaultConfig();
         
         NewTransT = Bukkit.getPluginManager().getPlugin("NewTrans");
         if(NewTransT != null) {
