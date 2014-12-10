@@ -1,0 +1,1 @@
+javac -cp "reqs/craftbukkit-1.7.2-R0.2.jar"\;"reqs/NewTrans.jar"\;"NewAnnouncer.jar" FILENAME.java
