@@ -1,0 +1,12 @@
+main: me.bai1.NewAnnouncer.NewAnnouncer
+description: Announcement broadcaster plugin (put short)
+version: 1.0.0
+name: NewAnnouncer
+author: BAI1
+commands:
+  newann:
+    description: Root command for the NewAnnouncer plugin.
+    aliases: [na, newannounce, newannouncer, an, ann]
+  listanns:
+    description: Lists known announcements.
+    aliases: [anns, announcements, listannouncements]
