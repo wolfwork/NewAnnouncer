@@ -1,6 +1,6 @@
 main: me.bai1.NewAnnouncer.NewAnnouncer
 description: Announcement broadcaster plugin (put short)
-version: 1.0.0
+version: 1.0.1
 name: NewAnnouncer
 author: BAI1
 commands:
@@ -10,3 +10,15 @@ commands:
   listanns:
     description: Lists known announcements.
     aliases: [anns, announcements, listannouncements]
+permissions:
+  newannouncer.*:
+    description: Gives access to all NewAnnouncer commands
+    children:
+      newannouncer.access: true
+      newannouncer.list: true
+  newannouncer.list:
+    description: Allows players to see all messages that can be broadcast
+    default: true
+  newannouncer.access:
+    description: Main administrative plugin command
+    default: op    
