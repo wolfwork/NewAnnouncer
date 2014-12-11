@@ -113,7 +113,7 @@ public class NewAnnouncer extends JavaPlugin implements Listener {
     }
     
     public static void broadcastMessage(String annMessage1) {
-        Bukkit.broadcastMessage(annPrefix + annMessage1);
+        Bukkit.broadcastMessage(annPrefix + annMessage1.replace("&", "\u00A7"));
         final String annMessage = annMessage1;
         
         if(NTC == true) {
